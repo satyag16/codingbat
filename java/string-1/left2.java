@@ -2,5 +2,5 @@
  * are moved to the end. The string length will be at least 2.
  */
 public String left2(String str) {
-    return str.substring(2) + str.substring(0, 2);
+  return str.substring(2, str.length()) + str.substring(0,2);
 }
